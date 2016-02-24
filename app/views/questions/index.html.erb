@@ -1,7 +1,10 @@
-<ul>
-    <% @questions.each do |question| %>
-	<li>
-	    <%= question.title%>
-	</li>
-    <% end  %>
-</ul>
+<% header("Questions") %>
+<div class="container">
+    <ul>
+	<% @questions.each do |question| %>
+	    <li>
+		<%= question.title%>
+	    </li>
+	<% end  %>
+    </ul>
+</div>
