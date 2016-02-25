@@ -5,3 +5,5 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+Question.create(title: 'How to have a clean history with git?')
+Question.create(title: 'How to determine whether my calculation of pi is accurate?')
